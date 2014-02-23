@@ -43,7 +43,7 @@ small {
   color: #6D6A6A;
   font-size: 15px;
   margin: 0 30px 10px;
-  text-align: right;
+  text-align: left;
 }
 
 ol {
@@ -65,12 +65,21 @@ img {
   border: 0;
 }
 
-.pictures li img {
-  border: 2px solid #b9b1bf;
-  display: inline;
+.pictures {
+   margin: 10px auto;
+   width: 900px;
 }
 
 .pictures li {
+  display: inline;
+  margin: 3px;
+}
+
+.pictures li img {
+  border: 2px solid #b9b1bf;
+}
+
+.pictures li:first-child {
   margin-left: 5px;
 }
 
@@ -126,11 +135,16 @@ img {
   display: inline;
 }
 
+#logo {
+   margin: 0 auto 30px;
+   width: 200px;
+}
+
 #text-block {
   height: 370px;
 }
 
-html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, small, b, i, ol, ul, li {
+html, body, div, h5, h6, p, img, b, i, ol, ul {
   margin: 0;
   padding: 0;
   border: 0;
