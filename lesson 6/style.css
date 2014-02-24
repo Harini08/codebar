@@ -1,0 +1,142 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  border-top: 5px solid #4c4066;
+  margin: 0;
+  padding: 10px 150px;
+  font-size: 12px;
+  color: #666666;
+}
+
+h1 {
+  color: #333333;
+  display: block;
+  font-weight: bold;
+
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #7A3CB7;
+  width: 20%;
+  margin: 0 0px;
+}
+
+p {
+  display: block;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+
+}
+
+li {
+  display: list-item;
+}
+
+article {
+  width: 65%;
+  padding: 10px;
+  color: #333333;
+  font-size: 1.2em;
+  border: 1px solid white;
+}
+
+aside {
+  margin-top: 20px;
+  width: 200px;
+  float: right;
+  height: 130px;
+  color: white;
+  vertical-align: middle;
+  border: 1px solid #E7E6E6;
+  background-color: #FDFDFC;
+  border-radius: 20px;
+  position: fixed;
+  right: 150px;
+}
+
+aside nav {
+  text-align: left;
+  border: none;
+  background: none;
+}
+
+audio {
+  width: 300px;
+  height: 30px;
+}
+
+figure {
+  margin: 0;
+  border-bottom: 1px dotted #0098D8;
+  padding-bottom: 4px;
+  display: block;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  line-height: 1.5em;
+  display: block;
+}
+
+footer {
+  height: 60px;
+  font-size: 1.2em;
+  padding-top: 35px;
+  vertical-align: middle;
+  border: 1px solid white;
+  background-color: #FDFDFC;
+}
+
+footer address {
+  font-style: italic;
+  display: block;
+}
+
+header {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  text-align: center;
+  height: 60px;
+  font-size: 30px;
+  padding-top: 35px;
+  vertical-align: middle;
+  background-color: #FDFDFC;
+}
+
+nav {
+  text-align: center;
+  height: 30px;
+  color: white;
+  font-size: 1.5em;
+  padding-top: 10px;
+  vertical-align: middle;
+  background-color: #FDFDFC;
+  border-bottom: 1px solid #E7E6E6;
+}
+
+nav li {
+  padding-bottom: 10px;
+}
+
+section {
+  padding: 10px;
+  display: inline-block;
+}
+
+video {
+  object-fit: contain;
+}
+
+#other-resources a {
+  font-size: 1.5em;
+}
