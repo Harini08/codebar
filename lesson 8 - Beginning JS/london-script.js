@@ -34,10 +34,21 @@ function displayTallestBuilding() {
   document.body.appendChild(tallestBuildingElement);
 }
 
+
+function displayOlympics() {
+  for (var i = 0; i < london.olympics.length; i++) {
+    var olympicsElement = document.createElement("p");
+    var olympicsContent = document.createTextNode("Olympics: " + london.olympics[i]);
+    olympicsElement.appendChild(olympicsContent);
+    document.body.appendChild(olympicsElement);
+  }
+}
+
 function displayAllInformation() {
   displayPopulation();
   displayAverageRent();
   displayTallestBuilding();
+  displayOlympics();
 }
 
 
