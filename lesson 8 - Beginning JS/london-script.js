@@ -20,6 +20,27 @@ function displayPopulation() {
   document.body.appendChild(population);
 }
 
+function displayAverageRent() {
+  var averageRentElement = document.createElement("p");
+  var averageRentContent = document.createTextNode("Average Rent: " + london.averageRent);
+  averageRentElement.appendChild(averageRentContent);
+  document.body.appendChild(averageRentElement);
+}
+
+function displayTallestBuilding() {
+  var tallestBuildingElement = document.createElement("p");
+  var tallestBuildingContent = document.createTextNode("Tallest Building: " + london.tallestBuilding.name + "(" + london.tallestBuilding.height + ")" );
+  tallestBuildingElement.appendChild(tallestBuildingContent);
+  document.body.appendChild(tallestBuildingElement);
+}
+
+function displayAllInformation() {
+  displayPopulation();
+  displayAverageRent();
+  displayTallestBuilding();
+}
+
+
 function listDomElements() {
   var children = document.body.childNodes;
   for(var i=0; i <  children.length; i++) {
