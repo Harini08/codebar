@@ -20,3 +20,7 @@ $(document).ready(function(){
     $(this).remove();
   })
 
+function updateTotal(){
+addToList();
+$(".total").text("Pending: " + pending + " Completed: " + completed);
+}
